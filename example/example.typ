@@ -1,7 +1,7 @@
 #import "../lib.typ": *
 
 
-#set text(font: "Microsoft YaHei UI")
+#set text(font: ("Arial", "Source Han Sans"))
 
 #show: buaa-theme.with(
   config-info(
@@ -22,17 +22,22 @@
 
 == Article title
 
+#let example-article-fig = block(
+  stroke: 1pt,
+  height: 100%,
+  width: 50%,
+  [Article Figure],
+)
+
 #article-title(
-  article-fig: "../figures/science.png",
+  article-fig: example-article-fig,
   journal: [Science],
   impf: [45.8],
-  pub-date: [2025-12-04],
+  pub-date: [20XX-XX-XX],
   quartile: [中科院 综合性期刊1区],
   core-research: [#lorem(10)],
-  authors: [
-    Christopher T. Griffin, Jeb Bugos, Ashley W. Poust, et al.
-  ],
-  institution: [Department of Geosciences, Princeton University, USA.],
+  authors: [#lorem(10)],
+  institution: [#lorem(10)],
 )
 
 == Section 1.2
@@ -42,7 +47,7 @@
   column-gutter: 1em,
   align(
     horizon,
-    image("../figures/bar_chart.svg"),
+    image("./figures/bar_chart.svg"),
   ),
   block(
     width: 100%,
@@ -59,8 +64,8 @@
   grid(
     align: center,
     rows: (1fr, 1fr),
-    image("../figures/heatmap_field.svg"),
-    image("../figures/line_comparison.svg"),
+    image("./figures/heatmap_field.svg"),
+    image("./figures/line_comparison.svg"),
   ),
   block(
     inset: (top: 1em),
@@ -74,7 +79,7 @@
   columns: (1fr, 1fr, 1fr),
   column-gutter: 0.5em,
   align: center + horizon,
-  image("../figures/bar_chart.svg"), image("../figures/heatmap_field.svg"), image("../figures/line_comparison.svg"),
+  image("./figures/bar_chart.svg"), image("./figures/heatmap_field.svg"), image("./figures/line_comparison.svg"),
 )
 #lorem(20)
 
@@ -95,29 +100,29 @@
 == Section 3.1
 #lorem(10)
 #horz-block()[
-  #image("../figures/bar_chart.svg")
+  #image("./figures/bar_chart.svg")
   #lorem(10)
 ][
-  #image("../figures/heatmap_field.svg")
+  #image("./figures/heatmap_field.svg")
   #lorem(10)
 ][
-  #image("../figures/line_comparison.svg")
+  #image("./figures/line_comparison.svg")
   #lorem(10)
 ]
 
 == Section 3.1
 #lorem(20)
 #horz-block()[
-  #image("../figures/bar_chart.svg")
+  #image("./figures/bar_chart.svg")
   #lorem(10)
 ][
-  #image("../figures/bar_chart.svg")
+  #image("./figures/bar_chart.svg")
   #lorem(10)
 ][
-  #image("../figures/bar_chart.svg")
+  #image("./figures/bar_chart.svg")
   #lorem(10)
 ][
-  #image("../figures/bar_chart.svg")
+  #image("./figures/bar_chart.svg")
   #lorem(10)
 ]
 

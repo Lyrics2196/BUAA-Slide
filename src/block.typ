@@ -107,7 +107,7 @@
         center + horizon,
         block(
           inset: 1pt,
-          image(article-fig, height: 100%),
+          article-fig,
         ),
       ),
       grid(

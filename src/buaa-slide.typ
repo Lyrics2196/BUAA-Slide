@@ -1,5 +1,4 @@
-#import "@preview/touying:0.6.1": *
-#import "@preview/numbly:0.1.0": *
+#import "./dependency.typ": *
 
 // Color definition from: https://xcb.buaa.edu.cn/info/1091/2057.htm
 #let buaa-blue = rgb(0, 61, 166)
