@@ -1,4 +1,4 @@
-#import "../lib.typ": *
+#import "@preview/buaa-slide:0.1.0": *
 
 
 #set text(font: ("Arial", "Source Han Sans"))
