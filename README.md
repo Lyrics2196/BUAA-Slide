@@ -4,16 +4,16 @@
 
 | 封面                                            | 
 | ----------------------------------------------- |
-| ![Example-Title](https://github\.com/Lyrics2196/BUAA-Slide/main/docs/assets/Example-01.png)        |
+| ![Example-Title](https://github.com/Lyrics2196/BUAA-Slide/main/docs/assets/Example-01.png?raw=true)        |
 
 
 | 目录                                            | 章节                                                |
 | ----------------------------------------------- | --------------------------------------------------- |
-| ![Example-Outline](https://github\.com/Lyrics2196/BUAA-Slide/main/docs/assets/Example-02.png)      | ![Example-Section](https://github\.com/Lyrics2196/BUAA-Slide/main/docs/assets/Example-02.png)          |
+| ![Example-Outline](https://github.com/Lyrics2196/BUAA-Slide/main/docs/assets/Example-02.png?raw=true)      | ![Example-Section](https://github.com/Lyrics2196/BUAA-Slide/main/docs/assets/Example-02.png?raw=true)          |
 
 | 内容                                            | 结束                                                |
 | ----------------------------------------------- | --------------------------------------------------- |
-| ![Example-Slide](https://github\.com/Lyrics2196/BUAA-Slide/main/docs/assets/Example-15.png)        | ![Example-End](https://github\.com/Lyrics2196/BUAA-Slide/main/docs/assets/Example-16.png)              |
+| ![Example-Slide](https://github.com/Lyrics2196/BUAA-Slide/main/docs/assets/Example-15.png?raw=true)        | ![Example-End](https://github.com/Lyrics2196/BUAA-Slide/main/docs/assets/Example-16.png?raw=true)              |
 
 ## 致谢
 - 本模板基于 [typst](https://github.com/typst/typst) 和 [touying](https://github.com/touying-typ/touying) 实现.
