@@ -9,6 +9,7 @@ repository = "https://github.com/Lyrics2196/BUAA-Slide"
 keywords = ["slides", "BUAA", "touying", "presentation", "lecture"]
 categories = ["presentation"]
 compiler = "0.14.2"
+exclude = ["examples/example.pdf"]
 
 [template]
 path = "example"
