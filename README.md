@@ -1,4 +1,4 @@
-# touying-buaa-theme
+# buaa-unofficial-gradient
 [中文文档](./README_zh.md)
 
 [English Document](./README.md)
@@ -39,9 +39,9 @@ This project aims to provide BUAAers with an easy-to-use and beautiful slide tem
 ```
 
 ## Quick Start
-Create a typst file and import the template at the beginning of the file using `#import "@preview/touying-buaa-theme:0.1.0": *`. Use `#show: buaa-theme.with()` to set basic information and initialize the slides.
+Create a typst file and import the template at the beginning of the file using `#import "@preview/buaa-unofficial-gradient:0.1.0": *`. Use `#show: buaa-theme.with()` to set basic information and initialize the slides.
 ```typst
-#import "@preview/touying-buaa-theme:0.1.0": *
+#import "@preview/buaa-unofficial-gradient:0.1.0": *
 
 #show: buaa-theme.with(
   config-info(
@@ -151,7 +151,8 @@ Example:
 ![Horz-Block](https://github.com/user-attachments/assets/aed200e7-5f9b-4708-8014-514b20d445e8)
 
 ## License
-This project is licensed under the GPL-3.0 License. See the [LICENSE](./LICENSE) file for details.
+The code of this project is licensed under the GPL-3.0 License. See the [LICENSE](./LICENSE) file for details.
+The Beihang University (BUAA) logo and visual identity assets included in this repository are NOT covered by the open-source license. They belong to Beihang University and are strictly for demonstration or non-commercial academic use only.
 
 ## Acknowledgements
 - This template is implemented based on [typst](https://github.com/typst/typst) and [touying](https://github.com/touying-typ/touying).

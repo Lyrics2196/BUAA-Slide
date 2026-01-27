@@ -1,5 +1,5 @@
 [package]
-name = "touying-buaa-theme"
+name = "buaa-unofficial-gradient"
 version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["Lyrics"]
@@ -9,7 +9,6 @@ repository = "https://github.com/Lyrics2196/BUAA-Slide"
 keywords = ["slides", "BUAA", "touying", "presentation", "lecture"]
 categories = ["presentation"]
 compiler = "0.14.0"
-exclude = ["examples/example.pdf"]
 
 [template]
 path = "example"

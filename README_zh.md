@@ -1,5 +1,4 @@
-# touying-buaa-theme
-
+# buaa-unofficial-gradient
 [中文文档](./README_zh.md)
 
 [English Document](./README.md)
@@ -39,9 +38,9 @@
 ```
 
 ## 快速开始
-创建一个typst文件, 在文件开头使用`#import "@preview/touying-buaa-theme:0.1.0": *`导入该模板. 使用`#show: buaa-theme.with()`设置基本信息与初始化幻灯片.
+创建一个typst文件, 在文件开头使用`#import "@preview/buaa-unofficial-gradient:0.1.0": *`导入该模板. 使用`#show: buaa-theme.with()`设置基本信息与初始化幻灯片.
 ```typst
-#import "@preview/touying-buaa-theme:0.1.0": *
+#import "@preview/buaa-unofficial-gradient:0.1.0": *
 
 #show: buaa-theme.with(
   config-info(
@@ -151,7 +150,8 @@
 ![Horz-Block](https://github.com/user-attachments/assets/aed200e7-5f9b-4708-8014-514b20d445e8)
 
 ## 许可证
-本项目采用 GPL-3.0 许可证。详见 [LICENSE](./LICENSE) 文件。
+本项代码目采用 GPL-3.0 许可证。详见 [LICENSE](./LICENSE) 文件。
+本项目包含的北航校徽及相关标识，其版权及商标权归北京航空航天大学所有，不属于本项目的开源授权范围。仅限于展示与学术交流等非商业用途, 严禁用于商业用途。
 
 ## 致谢
 - 本模板基于 [typst](https://github.com/typst/typst) 和 [touying](https://github.com/touying-typ/touying) 实现.
