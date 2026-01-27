@@ -1,5 +1,5 @@
-#import "@preview/buaa-unofficial-gradient:0.1.0": *
-
+// #import "@preview/buaa-unofficial-gradient:0.1.0": *
+#import "../lib.typ": *
 
 #set text(font: ("Arial", "Source Han Sans"))
 
